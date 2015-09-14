@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E5DC531E1BA6630500112568"
+               BlueprintIdentifier = "E5F0D6B11BA6DF3500FC2EC5"
                BuildableName = "helpsay.app"
                BlueprintName = "helpsay"
                ReferencedContainer = "container:helpsay.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E5DC53351BA6630500112568"
+               BlueprintIdentifier = "E5F0D6C61BA6DF3500FC2EC5"
                BuildableName = "helpsayTests.xctest"
                BlueprintName = "helpsayTests"
                ReferencedContainer = "container:helpsay.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E5DC53351BA6630500112568"
+               BlueprintIdentifier = "E5F0D6C61BA6DF3500FC2EC5"
                BuildableName = "helpsayTests.xctest"
                BlueprintName = "helpsayTests"
                ReferencedContainer = "container:helpsay.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E5DC531E1BA6630500112568"
+            BlueprintIdentifier = "E5F0D6B11BA6DF3500FC2EC5"
             BuildableName = "helpsay.app"
             BlueprintName = "helpsay"
             ReferencedContainer = "container:helpsay.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E5DC531E1BA6630500112568"
+            BlueprintIdentifier = "E5F0D6B11BA6DF3500FC2EC5"
             BuildableName = "helpsay.app"
             BlueprintName = "helpsay"
             ReferencedContainer = "container:helpsay.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E5DC531E1BA6630500112568"
+            BlueprintIdentifier = "E5F0D6B11BA6DF3500FC2EC5"
             BuildableName = "helpsay.app"
             BlueprintName = "helpsay"
             ReferencedContainer = "container:helpsay.xcodeproj">

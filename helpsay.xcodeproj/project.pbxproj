@@ -7,48 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5DC53251BA6630500112568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DC53241BA6630500112568 /* AppDelegate.swift */; };
-		E5DC53271BA6630500112568 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DC53261BA6630500112568 /* FirstViewController.swift */; };
-		E5DC53291BA6630500112568 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DC53281BA6630500112568 /* SecondViewController.swift */; };
-		E5DC532C1BA6630500112568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DC532A1BA6630500112568 /* Main.storyboard */; };
-		E5DC532E1BA6630500112568 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DC532D1BA6630500112568 /* Images.xcassets */; };
-		E5DC53311BA6630500112568 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5DC532F1BA6630500112568 /* LaunchScreen.xib */; };
-		E5DC533D1BA6630500112568 /* helpsayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DC533C1BA6630500112568 /* helpsayTests.swift */; };
+		E5F0D6B81BA6DF3500FC2EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */; };
+		E5F0D6BF1BA6DF3500FC2EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6BE1BA6DF3500FC2EC5 /* Images.xcassets */; };
+		E5F0D6C21BA6DF3500FC2EC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6C01BA6DF3500FC2EC5 /* LaunchScreen.xib */; };
+		E5F0D6CE1BA6DF3500FC2EC5 /* helpsayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6CD1BA6DF3500FC2EC5 /* helpsayTests.swift */; };
+		E5F0D6E11BA6DFEB00FC2EC5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6E01BA6DFEB00FC2EC5 /* RootViewController.swift */; };
+		E5F0D6E81BA6E05100FC2EC5 /* RobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6E61BA6E05100FC2EC5 /* RobotViewController.swift */; };
+		E5F0D6E91BA6E05100FC2EC5 /* RobotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6E71BA6E05100FC2EC5 /* RobotViewController.xib */; };
+		E5F0D6EC1BA6E2E300FC2EC5 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6EA1BA6E2E300FC2EC5 /* SceneViewController.swift */; };
+		E5F0D6ED1BA6E2E300FC2EC5 /* SceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6EB1BA6E2E300FC2EC5 /* SceneViewController.xib */; };
+		E5F0D6F01BA6E2FF00FC2EC5 /* HisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6EE1BA6E2FF00FC2EC5 /* HisViewController.swift */; };
+		E5F0D6F11BA6E2FF00FC2EC5 /* HisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6EF1BA6E2FF00FC2EC5 /* HisViewController.xib */; };
+		E5F0D6F41BA6E31500FC2EC5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6F21BA6E31500FC2EC5 /* SettingViewController.swift */; };
+		E5F0D6F51BA6E31500FC2EC5 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6F31BA6E31500FC2EC5 /* SettingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E5DC53371BA6630500112568 /* PBXContainerItemProxy */ = {
+		E5F0D6C81BA6DF3500FC2EC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E5DC53171BA6630500112568 /* Project object */;
+			containerPortal = E5F0D6AA1BA6DF3500FC2EC5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5DC531E1BA6630500112568;
+			remoteGlobalIDString = E5F0D6B11BA6DF3500FC2EC5;
 			remoteInfo = helpsay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E5DC531F1BA6630500112568 /* helpsay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpsay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5DC53231BA6630500112568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5DC53241BA6630500112568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5DC53261BA6630500112568 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E5DC53281BA6630500112568 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		E5DC532B1BA6630500112568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E5DC532D1BA6630500112568 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E5DC53301BA6630500112568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E5DC53361BA6630500112568 /* helpsayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helpsayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5DC533B1BA6630500112568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5DC533C1BA6630500112568 /* helpsayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpsayTests.swift; sourceTree = "<group>"; };
+		E5F0D6B21BA6DF3500FC2EC5 /* helpsay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpsay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F0D6B61BA6DF3500FC2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5F0D6BE1BA6DF3500FC2EC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5F0D6C11BA6DF3500FC2EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E5F0D6C71BA6DF3500FC2EC5 /* helpsayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helpsayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F0D6CC1BA6DF3500FC2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F0D6CD1BA6DF3500FC2EC5 /* helpsayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpsayTests.swift; sourceTree = "<group>"; };
+		E5F0D6E01BA6DFEB00FC2EC5 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E5F0D6E61BA6E05100FC2EC5 /* RobotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotViewController.swift; sourceTree = "<group>"; };
+		E5F0D6E71BA6E05100FC2EC5 /* RobotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RobotViewController.xib; sourceTree = "<group>"; };
+		E5F0D6EA1BA6E2E300FC2EC5 /* SceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
+		E5F0D6EB1BA6E2E300FC2EC5 /* SceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SceneViewController.xib; sourceTree = "<group>"; };
+		E5F0D6EE1BA6E2FF00FC2EC5 /* HisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HisViewController.swift; sourceTree = "<group>"; };
+		E5F0D6EF1BA6E2FF00FC2EC5 /* HisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HisViewController.xib; sourceTree = "<group>"; };
+		E5F0D6F21BA6E31500FC2EC5 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E5F0D6F31BA6E31500FC2EC5 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E5DC531C1BA6630500112568 /* Frameworks */ = {
+		E5F0D6AF1BA6DF3500FC2EC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5DC53331BA6630500112568 /* Frameworks */ = {
+		E5F0D6C41BA6DF3500FC2EC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,73 +70,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E5DC53161BA6630500112568 = {
+		E5F0D6A91BA6DF3500FC2EC5 = {
 			isa = PBXGroup;
 			children = (
-				E5DC53211BA6630500112568 /* helpsay */,
-				E5DC53391BA6630500112568 /* helpsayTests */,
-				E5DC53201BA6630500112568 /* Products */,
+				E5F0D6B41BA6DF3500FC2EC5 /* helpsay */,
+				E5F0D6CA1BA6DF3500FC2EC5 /* helpsayTests */,
+				E5F0D6B31BA6DF3500FC2EC5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E5DC53201BA6630500112568 /* Products */ = {
+		E5F0D6B31BA6DF3500FC2EC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5DC531F1BA6630500112568 /* helpsay.app */,
-				E5DC53361BA6630500112568 /* helpsayTests.xctest */,
+				E5F0D6B21BA6DF3500FC2EC5 /* helpsay.app */,
+				E5F0D6C71BA6DF3500FC2EC5 /* helpsayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5DC53211BA6630500112568 /* helpsay */ = {
+		E5F0D6B41BA6DF3500FC2EC5 /* helpsay */ = {
 			isa = PBXGroup;
 			children = (
-				E5DC53241BA6630500112568 /* AppDelegate.swift */,
-				E5DC53261BA6630500112568 /* FirstViewController.swift */,
-				E5DC53281BA6630500112568 /* SecondViewController.swift */,
-				E5DC532A1BA6630500112568 /* Main.storyboard */,
-				E5DC532D1BA6630500112568 /* Images.xcassets */,
-				E5DC532F1BA6630500112568 /* LaunchScreen.xib */,
-				E5DC53221BA6630500112568 /* Supporting Files */,
+				E5F0D6DF1BA6DFB000FC2EC5 /* Config */,
+				E5F0D6DE1BA6DFA300FC2EC5 /* Resource */,
+				E5F0D6DD1BA6DF9A00FC2EC5 /* Model */,
+				E5F0D6D81BA6DF7300FC2EC5 /* Utils */,
+				E5F0D6D71BA6DF6100FC2EC5 /* Controller */,
+				E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */,
+				E5F0D6BE1BA6DF3500FC2EC5 /* Images.xcassets */,
+				E5F0D6C01BA6DF3500FC2EC5 /* LaunchScreen.xib */,
+				E5F0D6B51BA6DF3500FC2EC5 /* Supporting Files */,
 			);
 			path = helpsay;
 			sourceTree = "<group>";
 		};
-		E5DC53221BA6630500112568 /* Supporting Files */ = {
+		E5F0D6B51BA6DF3500FC2EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5DC53231BA6630500112568 /* Info.plist */,
+				E5F0D6B61BA6DF3500FC2EC5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E5DC53391BA6630500112568 /* helpsayTests */ = {
+		E5F0D6CA1BA6DF3500FC2EC5 /* helpsayTests */ = {
 			isa = PBXGroup;
 			children = (
-				E5DC533C1BA6630500112568 /* helpsayTests.swift */,
-				E5DC533A1BA6630500112568 /* Supporting Files */,
+				E5F0D6CD1BA6DF3500FC2EC5 /* helpsayTests.swift */,
+				E5F0D6CB1BA6DF3500FC2EC5 /* Supporting Files */,
 			);
 			path = helpsayTests;
 			sourceTree = "<group>";
 		};
-		E5DC533A1BA6630500112568 /* Supporting Files */ = {
+		E5F0D6CB1BA6DF3500FC2EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5DC533B1BA6630500112568 /* Info.plist */,
+				E5F0D6CC1BA6DF3500FC2EC5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F0D6D71BA6DF6100FC2EC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0D6E51BA6E01D00FC2EC5 /* History */,
+				E5F0D6E41BA6E01600FC2EC5 /* Setting */,
+				E5F0D6E31BA6E01000FC2EC5 /* Scene */,
+				E5F0D6E21BA6DFFE00FC2EC5 /* Robot */,
+				E5F0D6E01BA6DFEB00FC2EC5 /* RootViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E5F0D6D81BA6DF7300FC2EC5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E5F0D6DD1BA6DF9A00FC2EC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E5F0D6DE1BA6DFA300FC2EC5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		E5F0D6DF1BA6DFB000FC2EC5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		E5F0D6E21BA6DFFE00FC2EC5 /* Robot */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0D6E61BA6E05100FC2EC5 /* RobotViewController.swift */,
+				E5F0D6E71BA6E05100FC2EC5 /* RobotViewController.xib */,
+			);
+			name = Robot;
+			sourceTree = "<group>";
+		};
+		E5F0D6E31BA6E01000FC2EC5 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0D6EA1BA6E2E300FC2EC5 /* SceneViewController.swift */,
+				E5F0D6EB1BA6E2E300FC2EC5 /* SceneViewController.xib */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		E5F0D6E41BA6E01600FC2EC5 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0D6F21BA6E31500FC2EC5 /* SettingViewController.swift */,
+				E5F0D6F31BA6E31500FC2EC5 /* SettingViewController.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		E5F0D6E51BA6E01D00FC2EC5 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0D6EE1BA6E2FF00FC2EC5 /* HisViewController.swift */,
+				E5F0D6EF1BA6E2FF00FC2EC5 /* HisViewController.xib */,
+			);
+			name = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5DC531E1BA6630500112568 /* helpsay */ = {
+		E5F0D6B11BA6DF3500FC2EC5 /* helpsay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5DC53401BA6630500112568 /* Build configuration list for PBXNativeTarget "helpsay" */;
+			buildConfigurationList = E5F0D6D11BA6DF3500FC2EC5 /* Build configuration list for PBXNativeTarget "helpsay" */;
 			buildPhases = (
-				E5DC531B1BA6630500112568 /* Sources */,
-				E5DC531C1BA6630500112568 /* Frameworks */,
-				E5DC531D1BA6630500112568 /* Resources */,
+				E5F0D6AE1BA6DF3500FC2EC5 /* Sources */,
+				E5F0D6AF1BA6DF3500FC2EC5 /* Frameworks */,
+				E5F0D6B01BA6DF3500FC2EC5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +222,46 @@
 			);
 			name = helpsay;
 			productName = helpsay;
-			productReference = E5DC531F1BA6630500112568 /* helpsay.app */;
+			productReference = E5F0D6B21BA6DF3500FC2EC5 /* helpsay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5DC53351BA6630500112568 /* helpsayTests */ = {
+		E5F0D6C61BA6DF3500FC2EC5 /* helpsayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5DC53431BA6630500112568 /* Build configuration list for PBXNativeTarget "helpsayTests" */;
+			buildConfigurationList = E5F0D6D41BA6DF3500FC2EC5 /* Build configuration list for PBXNativeTarget "helpsayTests" */;
 			buildPhases = (
-				E5DC53321BA6630500112568 /* Sources */,
-				E5DC53331BA6630500112568 /* Frameworks */,
-				E5DC53341BA6630500112568 /* Resources */,
+				E5F0D6C31BA6DF3500FC2EC5 /* Sources */,
+				E5F0D6C41BA6DF3500FC2EC5 /* Frameworks */,
+				E5F0D6C51BA6DF3500FC2EC5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E5DC53381BA6630500112568 /* PBXTargetDependency */,
+				E5F0D6C91BA6DF3500FC2EC5 /* PBXTargetDependency */,
 			);
 			name = helpsayTests;
 			productName = helpsayTests;
-			productReference = E5DC53361BA6630500112568 /* helpsayTests.xctest */;
+			productReference = E5F0D6C71BA6DF3500FC2EC5 /* helpsayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E5DC53171BA6630500112568 /* Project object */ = {
+		E5F0D6AA1BA6DF3500FC2EC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = shipl;
 				TargetAttributes = {
-					E5DC531E1BA6630500112568 = {
+					E5F0D6B11BA6DF3500FC2EC5 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					E5DC53351BA6630500112568 = {
+					E5F0D6C61BA6DF3500FC2EC5 = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = E5DC531E1BA6630500112568;
+						TestTargetID = E5F0D6B11BA6DF3500FC2EC5;
 					};
 				};
 			};
-			buildConfigurationList = E5DC531A1BA6630500112568 /* Build configuration list for PBXProject "helpsay" */;
+			buildConfigurationList = E5F0D6AD1BA6DF3500FC2EC5 /* Build configuration list for PBXProject "helpsay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +269,32 @@
 				en,
 				Base,
 			);
-			mainGroup = E5DC53161BA6630500112568;
-			productRefGroup = E5DC53201BA6630500112568 /* Products */;
+			mainGroup = E5F0D6A91BA6DF3500FC2EC5;
+			productRefGroup = E5F0D6B31BA6DF3500FC2EC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5DC531E1BA6630500112568 /* helpsay */,
-				E5DC53351BA6630500112568 /* helpsayTests */,
+				E5F0D6B11BA6DF3500FC2EC5 /* helpsay */,
+				E5F0D6C61BA6DF3500FC2EC5 /* helpsayTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E5DC531D1BA6630500112568 /* Resources */ = {
+		E5F0D6B01BA6DF3500FC2EC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5DC532C1BA6630500112568 /* Main.storyboard in Resources */,
-				E5DC53311BA6630500112568 /* LaunchScreen.xib in Resources */,
-				E5DC532E1BA6630500112568 /* Images.xcassets in Resources */,
+				E5F0D6C21BA6DF3500FC2EC5 /* LaunchScreen.xib in Resources */,
+				E5F0D6F51BA6E31500FC2EC5 /* SettingViewController.xib in Resources */,
+				E5F0D6ED1BA6E2E300FC2EC5 /* SceneViewController.xib in Resources */,
+				E5F0D6BF1BA6DF3500FC2EC5 /* Images.xcassets in Resources */,
+				E5F0D6E91BA6E05100FC2EC5 /* RobotViewController.xib in Resources */,
+				E5F0D6F11BA6E2FF00FC2EC5 /* HisViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5DC53341BA6630500112568 /* Resources */ = {
+		E5F0D6C51BA6DF3500FC2EC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +304,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E5DC531B1BA6630500112568 /* Sources */ = {
+		E5F0D6AE1BA6DF3500FC2EC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5DC53291BA6630500112568 /* SecondViewController.swift in Sources */,
-				E5DC53251BA6630500112568 /* AppDelegate.swift in Sources */,
-				E5DC53271BA6630500112568 /* FirstViewController.swift in Sources */,
+				E5F0D6E11BA6DFEB00FC2EC5 /* RootViewController.swift in Sources */,
+				E5F0D6EC1BA6E2E300FC2EC5 /* SceneViewController.swift in Sources */,
+				E5F0D6E81BA6E05100FC2EC5 /* RobotViewController.swift in Sources */,
+				E5F0D6B81BA6DF3500FC2EC5 /* AppDelegate.swift in Sources */,
+				E5F0D6F01BA6E2FF00FC2EC5 /* HisViewController.swift in Sources */,
+				E5F0D6F41BA6E31500FC2EC5 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5DC53321BA6630500112568 /* Sources */ = {
+		E5F0D6C31BA6DF3500FC2EC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5DC533D1BA6630500112568 /* helpsayTests.swift in Sources */,
+				E5F0D6CE1BA6DF3500FC2EC5 /* helpsayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E5DC53381BA6630500112568 /* PBXTargetDependency */ = {
+		E5F0D6C91BA6DF3500FC2EC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5DC531E1BA6630500112568 /* helpsay */;
-			targetProxy = E5DC53371BA6630500112568 /* PBXContainerItemProxy */;
+			target = E5F0D6B11BA6DF3500FC2EC5 /* helpsay */;
+			targetProxy = E5F0D6C81BA6DF3500FC2EC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5DC532A1BA6630500112568 /* Main.storyboard */ = {
+		E5F0D6C01BA6DF3500FC2EC5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5DC532B1BA6630500112568 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E5DC532F1BA6630500112568 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5DC53301BA6630500112568 /* Base */,
+				E5F0D6C11BA6DF3500FC2EC5 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +347,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E5DC533E1BA6630500112568 /* Debug */ = {
+		E5F0D6CF1BA6DF3500FC2EC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,11 +388,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E5DC533F1BA6630500112568 /* Release */ = {
+		E5F0D6D01BA6DF3500FC2EC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -337,12 +424,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		E5DC53411BA6630500112568 /* Debug */ = {
+		E5F0D6D21BA6DF3500FC2EC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -352,7 +438,7 @@
 			};
 			name = Debug;
 		};
-		E5DC53421BA6630500112568 /* Release */ = {
+		E5F0D6D31BA6DF3500FC2EC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -362,7 +448,7 @@
 			};
 			name = Release;
 		};
-		E5DC53441BA6630500112568 /* Debug */ = {
+		E5F0D6D51BA6DF3500FC2EC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,7 +467,7 @@
 			};
 			name = Debug;
 		};
-		E5DC53451BA6630500112568 /* Release */ = {
+		E5F0D6D61BA6DF3500FC2EC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -399,32 +485,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5DC531A1BA6630500112568 /* Build configuration list for PBXProject "helpsay" */ = {
+		E5F0D6AD1BA6DF3500FC2EC5 /* Build configuration list for PBXProject "helpsay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5DC533E1BA6630500112568 /* Debug */,
-				E5DC533F1BA6630500112568 /* Release */,
+				E5F0D6CF1BA6DF3500FC2EC5 /* Debug */,
+				E5F0D6D01BA6DF3500FC2EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5DC53401BA6630500112568 /* Build configuration list for PBXNativeTarget "helpsay" */ = {
+		E5F0D6D11BA6DF3500FC2EC5 /* Build configuration list for PBXNativeTarget "helpsay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5DC53411BA6630500112568 /* Debug */,
-				E5DC53421BA6630500112568 /* Release */,
+				E5F0D6D21BA6DF3500FC2EC5 /* Debug */,
+				E5F0D6D31BA6DF3500FC2EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E5DC53431BA6630500112568 /* Build configuration list for PBXNativeTarget "helpsayTests" */ = {
+		E5F0D6D41BA6DF3500FC2EC5 /* Build configuration list for PBXNativeTarget "helpsayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5DC53441BA6630500112568 /* Debug */,
-				E5DC53451BA6630500112568 /* Release */,
+				E5F0D6D51BA6DF3500FC2EC5 /* Debug */,
+				E5F0D6D61BA6DF3500FC2EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E5DC53171BA6630500112568 /* Project object */;
+	rootObject = E5F0D6AA1BA6DF3500FC2EC5 /* Project object */;
 }
