@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RobotViewController" customModule="helpsay" customModuleProvider="target">
             <connections>
+                <outlet property="robotImg" destination="x2c-mh-Mfr" id="8gg-Bg-14g"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,17 +15,23 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diP-c7-LuS">
-                    <rect key="frame" x="137" y="214" width="46" height="30"/>
-                    <state key="normal" title="Button">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="x2c-mh-Mfr">
+                    <rect key="frame" x="0.0" y="38" width="320" height="500"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="x2c-mh-Mfr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="5TC-Ah-ORe"/>
+                <constraint firstAttribute="trailing" secondItem="x2c-mh-Mfr" secondAttribute="trailing" id="LgS-mv-g0O"/>
+                <constraint firstItem="x2c-mh-Mfr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OZM-RI-hwa"/>
+                <constraint firstAttribute="bottom" secondItem="x2c-mh-Mfr" secondAttribute="bottom" constant="30" id="wDd-eQ-pjE"/>
+            </constraints>
             <point key="canvasLocation" x="331" y="447"/>
         </view>
     </objects>
+    <resources>
+        <image name="robot" width="440" height="600"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

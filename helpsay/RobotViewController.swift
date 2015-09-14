@@ -10,16 +10,30 @@ import UIKit
 
 class RobotViewController: UIViewController {
 
+    @IBOutlet weak var robotImg: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
+        //robotImg.addGestureRecognizer(UITapGestureRecognizer(target: self,   action: "touchesBegan"))
+        robotImg.userInteractionEnabled = true
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
+        NSLog("点击位置获取")
+
+        
+    }
+    
     
 
     /*
