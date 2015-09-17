@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5772BB71BAA6E9B006A482B /* robot_arm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BAF1BAA6E9B006A482B /* robot_arm.mp3 */; };
+		E5772BB81BAA6E9B006A482B /* robot_belly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB01BAA6E9B006A482B /* robot_belly.mp3 */; };
+		E5772BB91BAA6E9B006A482B /* robot_chest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB11BAA6E9B006A482B /* robot_chest.mp3 */; };
+		E5772BBA1BAA6E9B006A482B /* robot_eye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB21BAA6E9B006A482B /* robot_eye.mp3 */; };
+		E5772BBB1BAA6E9B006A482B /* robot_foot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB31BAA6E9B006A482B /* robot_foot.mp3 */; };
+		E5772BBC1BAA6E9B006A482B /* robot_hand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB41BAA6E9B006A482B /* robot_hand.mp3 */; };
+		E5772BBD1BAA6E9B006A482B /* robot_head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB51BAA6E9B006A482B /* robot_head.mp3 */; };
+		E5772BBE1BAA6E9B006A482B /* robot_leg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB61BAA6E9B006A482B /* robot_leg.mp3 */; };
 		E5EB15EF1BA83721006DCE4D /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */; };
 		E5F0D6B81BA6DF3500FC2EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */; };
 		E5F0D6BF1BA6DF3500FC2EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6BE1BA6DF3500FC2EC5 /* Images.xcassets */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5772BAF1BAA6E9B006A482B /* robot_arm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_arm.mp3; sourceTree = "<group>"; };
+		E5772BB01BAA6E9B006A482B /* robot_belly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_belly.mp3; sourceTree = "<group>"; };
+		E5772BB11BAA6E9B006A482B /* robot_chest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_chest.mp3; sourceTree = "<group>"; };
+		E5772BB21BAA6E9B006A482B /* robot_eye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_eye.mp3; sourceTree = "<group>"; };
+		E5772BB31BAA6E9B006A482B /* robot_foot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_foot.mp3; sourceTree = "<group>"; };
+		E5772BB41BAA6E9B006A482B /* robot_hand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_hand.mp3; sourceTree = "<group>"; };
+		E5772BB51BAA6E9B006A482B /* robot_head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_head.mp3; sourceTree = "<group>"; };
+		E5772BB61BAA6E9B006A482B /* robot_leg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_leg.mp3; sourceTree = "<group>"; };
 		E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
 		E5F0D6B21BA6DF3500FC2EC5 /* helpsay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpsay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F0D6B61BA6DF3500FC2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +88,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5772B7C1BAA60F0006A482B /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				E5772BAF1BAA6E9B006A482B /* robot_arm.mp3 */,
+				E5772BB01BAA6E9B006A482B /* robot_belly.mp3 */,
+				E5772BB11BAA6E9B006A482B /* robot_chest.mp3 */,
+				E5772BB21BAA6E9B006A482B /* robot_eye.mp3 */,
+				E5772BB31BAA6E9B006A482B /* robot_foot.mp3 */,
+				E5772BB41BAA6E9B006A482B /* robot_hand.mp3 */,
+				E5772BB51BAA6E9B006A482B /* robot_head.mp3 */,
+				E5772BB61BAA6E9B006A482B /* robot_leg.mp3 */,
+			);
+			name = mp3;
+			sourceTree = "<group>";
+		};
 		E5F0D6A91BA6DF3500FC2EC5 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +140,7 @@
 		E5F0D6B51BA6DF3500FC2EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E5772B7C1BAA60F0006A482B /* mp3 */,
 				E5F0D6B61BA6DF3500FC2EC5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -289,11 +321,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5F0D6C21BA6DF3500FC2EC5 /* LaunchScreen.xib in Resources */,
+				E5772BBB1BAA6E9B006A482B /* robot_foot.mp3 in Resources */,
 				E5F0D6F51BA6E31500FC2EC5 /* SettingViewController.xib in Resources */,
+				E5772BB81BAA6E9B006A482B /* robot_belly.mp3 in Resources */,
+				E5772BBA1BAA6E9B006A482B /* robot_eye.mp3 in Resources */,
 				E5F0D6ED1BA6E2E300FC2EC5 /* SceneViewController.xib in Resources */,
 				E5F0D6BF1BA6DF3500FC2EC5 /* Images.xcassets in Resources */,
+				E5772BB71BAA6E9B006A482B /* robot_arm.mp3 in Resources */,
+				E5772BBC1BAA6E9B006A482B /* robot_hand.mp3 in Resources */,
+				E5772BB91BAA6E9B006A482B /* robot_chest.mp3 in Resources */,
+				E5772BBE1BAA6E9B006A482B /* robot_leg.mp3 in Resources */,
 				E5F0D6E91BA6E05100FC2EC5 /* RobotViewController.xib in Resources */,
 				E5F0D6F11BA6E2FF00FC2EC5 /* HisViewController.xib in Resources */,
+				E5772BBD1BAA6E9B006A482B /* robot_head.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

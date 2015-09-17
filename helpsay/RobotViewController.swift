@@ -8,8 +8,9 @@
 
 import UIKit
 import AVFoundation
+import MediaPlayer
 
-class RobotViewController: UIViewController {
+class RobotViewController: UIViewController, AVAudioPlayerDelegate {
     
     //declare avplayer
     var audioPlayer: AVAudioPlayer?
@@ -25,11 +26,7 @@ class RobotViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         // Do any additional setup after loading the view.
-        
-        
-        self.audioPlayer = AVAudioPlayer();
         
         //get machine name
         let modelName = UIDevice.currentDevice().modelName
@@ -53,12 +50,43 @@ class RobotViewController: UIViewController {
     
     func setRectValueByModel(modelName: String){
         
+        switch(modelName){
         
-    
-        if (modelName == "Simulator"){
+        case "iPhone 6 Plus":
+        
+            headRect = CGRectMake(100, 110, 200, 70)
             
-            //animImageView = UIImageView(frame: CGRectMake(135, 270, 78, 20))
-        
+            leftEyeRect = CGRectMake(120, 230, 50, 50)
+            rightEyeRect =  CGRectMake(240, 230, 50, 50)
+            
+            leftEarRect = CGRectMake(50, 230, 50, 50)
+            rightEarRect =  CGRectMake(320, 230, 50, 50)
+            
+            
+            toothRect = CGRectMake(150, 300, 120, 50)
+            
+            chestRect = CGRectMake(170, 400, 80, 50)
+            
+            abdomenRect = CGRectMake(180, 450, 50, 50)
+            
+            leftArmRect = CGRectMake(90, 450, 50, 50)
+            rightArmRect = CGRectMake(270, 450, 50, 50)
+            
+            
+            leftHandRect = CGRectMake(70, 450, 50, 50)
+            rightHandRect = CGRectMake(270, 450, 50, 50)
+            
+            
+            leftLegRect = CGRectMake(140, 560, 50, 50)
+            rightLegRect = CGRectMake(215, 560, 50, 50)
+            
+            leftFootRect = CGRectMake(140, 610, 50, 50)
+            rightFootRect = CGRectMake(215, 610, 50, 50)
+            
+            self.animImageView  = UIImageView(frame: CGRectMake(170, 300, 80, 20))
+            
+        default:
+            
             headRect = CGRectMake(60, 100, 200, 70)
             
             leftEyeRect = CGRectMake(115, 190, 50, 50)
@@ -67,10 +95,12 @@ class RobotViewController: UIViewController {
             leftEarRect = CGRectMake(50, 190, 50, 50)
             rightEarRect =  CGRectMake(305, 190, 50, 50)
             
+            toothRect = CGRectMake(150, 300, 120, 50)
+            
             toothRect = CGRectMake(135, 270, 120, 50)
             
             chestRect = CGRectMake(150, 350, 80, 50)
-        
+            
             abdomenRect = CGRectMake(160, 400, 50, 50)
             
             leftArmRect = CGRectMake(80, 390, 50, 50)
@@ -86,9 +116,11 @@ class RobotViewController: UIViewController {
             
             leftFootRect = CGRectMake(130, 550, 50, 50)
             rightFootRect = CGRectMake(200, 550, 50, 50)
+            
+            self.animImageView  = UIImageView(frame: CGRectMake(140, 270, 78, 20))
         }
+
         
-        self.animImageView  = UIImageView(frame: CGRectMake(135, 270, 78, 20))
         var animImages = [UIImage]()
         animImages.append(UIImage(named: "robot_speak0")!)
         animImages.append(UIImage(named: "robot_speak1")!)
@@ -96,13 +128,9 @@ class RobotViewController: UIViewController {
         animImages.append(UIImage(named: "robot_speak3")!)
         animImages.append(UIImage(named: "robot_speak4")!)
         animImages.append(UIImage(named: "robot_speak5")!)
+        
         self.animImageView?.animationImages = animImages;
-        
 
-        //animImageView!.animationImages = [UIImage]()
-        //animImageView!.animationImages?.append(UIImage(named: "robot_speadk0")!)
-        
-        
     }
     
     //for imageviews add tap gesture
@@ -119,69 +147,89 @@ class RobotViewController: UIViewController {
         
     }
     
+    //create player play body part sound
+    func createAVAudioPlayer(fileName: String)-> AVAudioPlayer{
+        var e : NSError?
+        let url = NSURL.fileURLWithPath(NSBundle.mainBundle().pathForResource(fileName, ofType: "mp3")!)
+        
+        var audioPlayer = AVAudioPlayer(contentsOfURL: url, error: &e)
+        
+        if let error = e{
+            NSLog("audioPlayer error \(error.localizedDescription)")
+        }
+        else{
+            audioPlayer.delegate = self;
+            audioPlayer.prepareToPlay();
+        }
+        
+        return audioPlayer
+    }
+    
     
     //image tap  handle
     func handleTap(recognizer: UITapGestureRecognizer) {
+        
+        var playTag = true
         
         var tapPoint: CGPoint = recognizer.locationInView(self.view)
         
         if (headRect!.contains(tapPoint)){
             
-            NSLog("click head x=%f y=%f", tapPoint.x, tapPoint.y)
-            
-            self.view.bringSubviewToFront(self.animImageView!);
-            
-            self.animImageView?.startAnimating();
+            self.audioPlayer = createAVAudioPlayer("robot_head")
             
         
         } else if (leftEyeRect!.contains(tapPoint) || rightEyeRect!.contains(tapPoint)){
             
-            NSLog("click eye x=%f y=%f", tapPoint.x, tapPoint.y)
+            self.audioPlayer = createAVAudioPlayer("robot_eye")
             
         } else if (leftEarRect!.contains(tapPoint) || rightEarRect!.contains(tapPoint)){
             
-            NSLog("click ear x=%f y=%f", tapPoint.x, tapPoint.y)
+            self.audioPlayer = createAVAudioPlayer("robot_head")
             
         } else if (toothRect!.contains(tapPoint)){
         
-            NSLog("click tooth x=%f y=%f", tapPoint.x, tapPoint.y)
+            self.audioPlayer = createAVAudioPlayer("robot_head")
         
         } else if (chestRect!.contains(tapPoint)){
             
-            NSLog("click chest x=%f y=%f", tapPoint.x, tapPoint.y)
-
+            self.audioPlayer = createAVAudioPlayer("robot_chest")
         
         } else if (abdomenRect!.contains(tapPoint)){
         
-            NSLog("click abdome x=%f y=%f", tapPoint.x, tapPoint.y)
+            self.audioPlayer = createAVAudioPlayer("robot_belly")
         
         } else if (leftArmRect!.contains(tapPoint) || rightArmRect!.contains(tapPoint)){
         
-            NSLog("click arm x=%f y=%f", tapPoint.x, tapPoint.y)
+            self.audioPlayer = createAVAudioPlayer("robot_arm")
         
         } else if (leftHandRect!.contains(tapPoint) || rightHandRect!.contains(tapPoint)){
     
-            NSLog("click hand x=%f y=%f", tapPoint.x, tapPoint.y)
+            self.audioPlayer = createAVAudioPlayer("robot_arm")
     
         } else if (leftLegRect!.contains(tapPoint) || rightLegRect!.contains(tapPoint)){
             
-            NSLog("click leg x=%f y=%f", tapPoint.x, tapPoint.y)
+            self.audioPlayer = createAVAudioPlayer("robot_leg")
             
         } else if (leftFootRect!.contains(tapPoint) || rightFootRect!.contains(tapPoint)){
             
-            NSLog("click foot x=%f y=%f", tapPoint.x, tapPoint.y)
+            self.audioPlayer = createAVAudioPlayer("robot_foot")
             
         } else{
             
-            NSLog("please click correct point  x=%f y=%f", tapPoint.x, tapPoint.y)
-            
-            self.view.sendSubviewToBack(self.animImageView!);
-            self.animImageView?.stopAnimating();
+            playTag = false
+
         }
         
+        if playTag {
+        
+            if (self.audioPlayer != nil){
+                self.audioPlayer!.play();
+            }
 
+            self.view.bringSubviewToFront(self.animImageView!);
+            self.animImageView?.startAnimating();
+        }
     }
-    
 
 
     /*
@@ -193,7 +241,12 @@ class RobotViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    //AVAudioPlayer play over do
+    func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
+        self.view.sendSubviewToBack(self.animImageView!);
+        self.animImageView?.stopAnimating();
+    }
     
     //初始化窗体
     convenience init(){
