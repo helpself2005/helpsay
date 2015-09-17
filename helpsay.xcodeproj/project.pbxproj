@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5EB15EF1BA83721006DCE4D /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */; };
 		E5F0D6B81BA6DF3500FC2EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */; };
 		E5F0D6BF1BA6DF3500FC2EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6BE1BA6DF3500FC2EC5 /* Images.xcassets */; };
 		E5F0D6C21BA6DF3500FC2EC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6C01BA6DF3500FC2EC5 /* LaunchScreen.xib */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
 		E5F0D6B21BA6DF3500FC2EC5 /* helpsay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpsay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F0D6B61BA6DF3500FC2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		E5F0D6D81BA6DF7300FC2EC5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EB15EF1BA83721006DCE4D /* UIDeviceExt.swift in Sources */,
 				E5F0D6E11BA6DFEB00FC2EC5 /* RootViewController.swift in Sources */,
 				E5F0D6EC1BA6E2E300FC2EC5 /* SceneViewController.swift in Sources */,
 				E5F0D6E81BA6E05100FC2EC5 /* RobotViewController.swift in Sources */,
@@ -501,6 +505,7 @@
 				E5F0D6D31BA6DF3500FC2EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5F0D6D41BA6DF3500FC2EC5 /* Build configuration list for PBXNativeTarget "helpsayTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				E5F0D6D61BA6DF3500FC2EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,14 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         
-        var rootVC = RootViewController();
+        var rootVC = RootViewController()
         
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds);
-        self.window!.backgroundColor = UIColor.whiteColor();
-        self.window!.makeKeyAndVisible();
-        self.window!.rootViewController = rootVC;
-        return true;
-        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.makeKeyAndVisible()
+        self.window!.rootViewController = rootVC
         return true
     }
 

@@ -6,7 +6,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RobotViewController" customModule="helpsay" customModuleProvider="target">
             <connections>
-                <outlet property="robotImg" destination="x2c-mh-Mfr" id="8gg-Bg-14g"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,13 +17,19 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="x2c-mh-Mfr">
                     <rect key="frame" x="0.0" y="38" width="320" height="500"/>
                 </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cWl-x1-TZP">
+                    <rect key="frame" x="101" y="469" width="50" height="50"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05F-nE-Ydv">
+                    <rect key="frame" x="50" y="370" width="50" height="51"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="x2c-mh-Mfr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="5TC-Ah-ORe"/>
-                <constraint firstAttribute="trailing" secondItem="x2c-mh-Mfr" secondAttribute="trailing" id="LgS-mv-g0O"/>
-                <constraint firstItem="x2c-mh-Mfr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OZM-RI-hwa"/>
-                <constraint firstAttribute="bottom" secondItem="x2c-mh-Mfr" secondAttribute="bottom" constant="30" id="wDd-eQ-pjE"/>
+                <constraint firstItem="x2c-mh-Mfr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="C3e-PC-dh3"/>
+                <constraint firstItem="x2c-mh-Mfr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="GOL-TZ-tHj"/>
+                <constraint firstAttribute="bottom" secondItem="x2c-mh-Mfr" secondAttribute="bottom" constant="30" id="HhL-g9-Mk1"/>
+                <constraint firstAttribute="trailing" secondItem="x2c-mh-Mfr" secondAttribute="trailing" id="d8f-fb-u2T"/>
             </constraints>
             <point key="canvasLocation" x="331" y="447"/>
         </view>
