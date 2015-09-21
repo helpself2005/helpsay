@@ -16,6 +16,8 @@
 		E5772BBD1BAA6E9B006A482B /* robot_head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB51BAA6E9B006A482B /* robot_head.mp3 */; };
 		E5772BBE1BAA6E9B006A482B /* robot_leg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB61BAA6E9B006A482B /* robot_leg.mp3 */; };
 		E5EB15EF1BA83721006DCE4D /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */; };
+		E5EEA61E1BAC1FA0003B7BE5 /* AddSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EEA61C1BAC1FA0003B7BE5 /* AddSceneViewController.swift */; };
+		E5EEA61F1BAC1FA0003B7BE5 /* AddSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5EEA61D1BAC1FA0003B7BE5 /* AddSceneViewController.xib */; };
 		E5F0D6B81BA6DF3500FC2EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */; };
 		E5F0D6BF1BA6DF3500FC2EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6BE1BA6DF3500FC2EC5 /* Images.xcassets */; };
 		E5F0D6C21BA6DF3500FC2EC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6C01BA6DF3500FC2EC5 /* LaunchScreen.xib */; };
@@ -51,6 +53,8 @@
 		E5772BB51BAA6E9B006A482B /* robot_head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_head.mp3; sourceTree = "<group>"; };
 		E5772BB61BAA6E9B006A482B /* robot_leg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_leg.mp3; sourceTree = "<group>"; };
 		E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
+		E5EEA61C1BAC1FA0003B7BE5 /* AddSceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSceneViewController.swift; sourceTree = "<group>"; };
+		E5EEA61D1BAC1FA0003B7BE5 /* AddSceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddSceneViewController.xib; sourceTree = "<group>"; };
 		E5F0D6B21BA6DF3500FC2EC5 /* helpsay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpsay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F0D6B61BA6DF3500FC2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -218,6 +222,8 @@
 			children = (
 				E5F0D6EA1BA6E2E300FC2EC5 /* SceneViewController.swift */,
 				E5F0D6EB1BA6E2E300FC2EC5 /* SceneViewController.xib */,
+				E5EEA61C1BAC1FA0003B7BE5 /* AddSceneViewController.swift */,
+				E5EEA61D1BAC1FA0003B7BE5 /* AddSceneViewController.xib */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -322,6 +328,7 @@
 			files = (
 				E5F0D6C21BA6DF3500FC2EC5 /* LaunchScreen.xib in Resources */,
 				E5772BBB1BAA6E9B006A482B /* robot_foot.mp3 in Resources */,
+				E5EEA61F1BAC1FA0003B7BE5 /* AddSceneViewController.xib in Resources */,
 				E5F0D6F51BA6E31500FC2EC5 /* SettingViewController.xib in Resources */,
 				E5772BB81BAA6E9B006A482B /* robot_belly.mp3 in Resources */,
 				E5772BBA1BAA6E9B006A482B /* robot_eye.mp3 in Resources */,
@@ -356,6 +363,7 @@
 				E5F0D6EC1BA6E2E300FC2EC5 /* SceneViewController.swift in Sources */,
 				E5F0D6E81BA6E05100FC2EC5 /* RobotViewController.swift in Sources */,
 				E5F0D6B81BA6DF3500FC2EC5 /* AppDelegate.swift in Sources */,
+				E5EEA61E1BAC1FA0003B7BE5 /* AddSceneViewController.swift in Sources */,
 				E5F0D6F01BA6E2FF00FC2EC5 /* HisViewController.swift in Sources */,
 				E5F0D6F41BA6E31500FC2EC5 /* SettingViewController.swift in Sources */,
 			);

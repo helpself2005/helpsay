@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RootViewController: UITabBarController {
+class RootViewController: UITabBarController, UITabBarControllerDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +21,26 @@ class RootViewController: UITabBarController {
         
         self.tabBar.tintColor = UIColor(red: 255.0/255.0, green: 124.0/255.0, blue: 56.0/255.0, alpha: 1);
         
-        self.selectedIndex = 0;
+        self.selectedIndex = 1;
+        self.navigationItem.title = "点场景"
+        
+        self.delegate = self
+        
+        initSetting()
+        
     }
+    
+    func initSetting(){
+        var settingButton = UIBarButtonItem(title: "设置", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("handleSettings"))
+        self.navigationItem.rightBarButtonItem = settingButton
+    }
+    
+    
+    func handleSettings(){
+        var settingVC = SettingViewController()
+        self.navigationController?.pushViewController(settingVC, animated: true)
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -47,18 +65,22 @@ class RootViewController: UITabBarController {
         //TODO 需要更改底部界面图形和字体
         
         var robotVC = RobotViewController();
-        robotVC.tabBarItem = UITabBarItem(title: "点部位", image: UIImage(named: "second") , tag: 2);
+        robotVC.tabBarItem = UITabBarItem(title: "点部位", image: UIImage(named: "blank") , tag: 2);
         
         var sceneVC = SceneViewController();
-        sceneVC.tabBarItem = UITabBarItem(title: "点场景", image: UIImage(named: "first") , tag: 1);
+        sceneVC.tabBarItem = UITabBarItem(title: "点场景", image: UIImage(named: "blank") , tag: 1);
         
         var hisVC = HisViewController();
-        hisVC.tabBarItem = UITabBarItem(title: "点历史", image: UIImage(named: "ic_launcher") , tag: 3);
+        hisVC.tabBarItem = UITabBarItem(title: "点历史", image: UIImage(named: "blank") , tag: 3);
         
-        var settingVC = SettingViewController();
-        settingVC.tabBarItem = UITabBarItem(title: "设置", image: UIImage(named: "ic_launcher"), tag: 4);
-        
-        self.setViewControllers([robotVC, sceneVC, hisVC, settingVC], animated: true);
+        self.setViewControllers([robotVC, sceneVC, hisVC], animated: true);
+    }
+    
+    
+    func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController){
+    
+        self.navigationItem.title = viewController.title;
+    
     }
 
 }

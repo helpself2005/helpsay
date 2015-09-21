@@ -6,26 +6,26 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RobotViewController" customModule="helpsay" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view" destination="lax-dQ-WwT" id="VJl-bL-G8D"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+        <view contentMode="scaleToFill" id="lax-dQ-WwT">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="x2c-mh-Mfr">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="Ih9-sb-4UE">
                     <rect key="frame" x="0.0" y="38" width="320" height="500"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="x2c-mh-Mfr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="C3e-PC-dh3"/>
-                <constraint firstItem="x2c-mh-Mfr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="GOL-TZ-tHj"/>
-                <constraint firstAttribute="bottom" secondItem="x2c-mh-Mfr" secondAttribute="bottom" constant="30" id="HhL-g9-Mk1"/>
-                <constraint firstAttribute="trailing" secondItem="x2c-mh-Mfr" secondAttribute="trailing" id="d8f-fb-u2T"/>
+                <constraint firstAttribute="trailing" secondItem="Ih9-sb-4UE" secondAttribute="trailing" id="TNc-RH-JyQ"/>
+                <constraint firstAttribute="bottom" secondItem="Ih9-sb-4UE" secondAttribute="bottom" constant="30" id="XOC-KK-N2U"/>
+                <constraint firstItem="Ih9-sb-4UE" firstAttribute="leading" secondItem="lax-dQ-WwT" secondAttribute="leading" id="YoY-tc-0HD"/>
+                <constraint firstItem="Ih9-sb-4UE" firstAttribute="top" secondItem="lax-dQ-WwT" secondAttribute="top" constant="38" id="pu6-wa-EdQ"/>
             </constraints>
-            <point key="canvasLocation" x="331" y="447"/>
+            <point key="canvasLocation" x="-82" y="601"/>
         </view>
     </objects>
     <resources>

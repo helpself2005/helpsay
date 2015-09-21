@@ -26,6 +26,11 @@ class RobotViewController: UIViewController, AVAudioPlayerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "点部位"
+        
+        //let nextItem = UIBarButtonItem(title: "下一页", style: .Plain, target: self, action: "next")
+        //self.navigationItem.rightBarButtonItem = nextItem
+        
         // Do any additional setup after loading the view.
         
         //get machine name

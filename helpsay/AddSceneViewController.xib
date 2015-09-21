@@ -4,9 +4,8 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingViewController" customModule="helpsay" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddSceneViewController" customModule="helpsay" customModuleProvider="target">
             <connections>
-                <outlet property="addSceneBtn" destination="XjK-e6-R4s" id="llc-pY-Eek"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,21 +14,17 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjK-e6-R4s">
-                    <rect key="frame" x="130" y="269" width="60" height="30"/>
-                    <state key="normal" title="添加场景">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="c7X-NQ-iRS">
+                    <rect key="frame" x="0.0" y="71" width="320" height="226"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstAttribute="centerX" secondItem="XjK-e6-R4s" secondAttribute="centerX" id="IIX-Eh-Gr3"/>
-                <constraint firstAttribute="centerY" secondItem="XjK-e6-R4s" secondAttribute="centerY" id="YM7-eA-xZM"/>
-            </constraints>
-            <point key="canvasLocation" x="331" y="447"/>
+            <point key="canvasLocation" x="469" y="482"/>
         </view>
     </objects>
+    <resources>
+        <image name="camera" width="120" height="120"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
