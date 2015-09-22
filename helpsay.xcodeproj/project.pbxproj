@@ -16,13 +16,14 @@
 		E5772BBD1BAA6E9B006A482B /* robot_head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB51BAA6E9B006A482B /* robot_head.mp3 */; };
 		E5772BBE1BAA6E9B006A482B /* robot_leg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5772BB61BAA6E9B006A482B /* robot_leg.mp3 */; };
 		E5EB15EF1BA83721006DCE4D /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */; };
+		E5ECE5C81BB0DE22005B5C18 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ECE5C71BB0DE22005B5C18 /* RootViewController.swift */; };
 		E5EEA61E1BAC1FA0003B7BE5 /* AddSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EEA61C1BAC1FA0003B7BE5 /* AddSceneViewController.swift */; };
 		E5EEA61F1BAC1FA0003B7BE5 /* AddSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5EEA61D1BAC1FA0003B7BE5 /* AddSceneViewController.xib */; };
 		E5F0D6B81BA6DF3500FC2EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */; };
 		E5F0D6BF1BA6DF3500FC2EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6BE1BA6DF3500FC2EC5 /* Images.xcassets */; };
 		E5F0D6C21BA6DF3500FC2EC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6C01BA6DF3500FC2EC5 /* LaunchScreen.xib */; };
 		E5F0D6CE1BA6DF3500FC2EC5 /* helpsayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6CD1BA6DF3500FC2EC5 /* helpsayTests.swift */; };
-		E5F0D6E11BA6DFEB00FC2EC5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6E01BA6DFEB00FC2EC5 /* RootViewController.swift */; };
+		E5F0D6E11BA6DFEB00FC2EC5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6E01BA6DFEB00FC2EC5 /* MainViewController.swift */; };
 		E5F0D6E81BA6E05100FC2EC5 /* RobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6E61BA6E05100FC2EC5 /* RobotViewController.swift */; };
 		E5F0D6E91BA6E05100FC2EC5 /* RobotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F0D6E71BA6E05100FC2EC5 /* RobotViewController.xib */; };
 		E5F0D6EC1BA6E2E300FC2EC5 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0D6EA1BA6E2E300FC2EC5 /* SceneViewController.swift */; };
@@ -53,6 +54,7 @@
 		E5772BB51BAA6E9B006A482B /* robot_head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_head.mp3; sourceTree = "<group>"; };
 		E5772BB61BAA6E9B006A482B /* robot_leg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robot_leg.mp3; sourceTree = "<group>"; };
 		E5EB15EE1BA83721006DCE4D /* UIDeviceExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
+		E5ECE5C71BB0DE22005B5C18 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		E5EEA61C1BAC1FA0003B7BE5 /* AddSceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSceneViewController.swift; sourceTree = "<group>"; };
 		E5EEA61D1BAC1FA0003B7BE5 /* AddSceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddSceneViewController.xib; sourceTree = "<group>"; };
 		E5F0D6B21BA6DF3500FC2EC5 /* helpsay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpsay.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +65,7 @@
 		E5F0D6C71BA6DF3500FC2EC5 /* helpsayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helpsayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F0D6CC1BA6DF3500FC2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F0D6CD1BA6DF3500FC2EC5 /* helpsayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpsayTests.swift; sourceTree = "<group>"; };
-		E5F0D6E01BA6DFEB00FC2EC5 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E5F0D6E01BA6DFEB00FC2EC5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E5F0D6E61BA6E05100FC2EC5 /* RobotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotViewController.swift; sourceTree = "<group>"; };
 		E5F0D6E71BA6E05100FC2EC5 /* RobotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RobotViewController.xib; sourceTree = "<group>"; };
 		E5F0D6EA1BA6E2E300FC2EC5 /* SceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
@@ -174,7 +176,8 @@
 				E5F0D6E41BA6E01600FC2EC5 /* Setting */,
 				E5F0D6E31BA6E01000FC2EC5 /* Scene */,
 				E5F0D6E21BA6DFFE00FC2EC5 /* Robot */,
-				E5F0D6E01BA6DFEB00FC2EC5 /* RootViewController.swift */,
+				E5F0D6E01BA6DFEB00FC2EC5 /* MainViewController.swift */,
+				E5ECE5C71BB0DE22005B5C18 /* RootViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -359,7 +362,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5EB15EF1BA83721006DCE4D /* UIDeviceExt.swift in Sources */,
-				E5F0D6E11BA6DFEB00FC2EC5 /* RootViewController.swift in Sources */,
+				E5F0D6E11BA6DFEB00FC2EC5 /* MainViewController.swift in Sources */,
+				E5ECE5C81BB0DE22005B5C18 /* RootViewController.swift in Sources */,
 				E5F0D6EC1BA6E2E300FC2EC5 /* SceneViewController.swift in Sources */,
 				E5F0D6E81BA6E05100FC2EC5 /* RobotViewController.swift in Sources */,
 				E5F0D6B81BA6DF3500FC2EC5 /* AppDelegate.swift in Sources */,

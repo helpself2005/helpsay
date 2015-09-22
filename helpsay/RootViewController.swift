@@ -2,45 +2,19 @@
 //  RootViewController.swift
 //  helpsay
 //
-//  Created by shipl on 15/9/14.
+//  Created by shipl on 15/9/22.
 //  Copyright (c) 2015年 shipl. All rights reserved.
 //
 
 import UIKit
 
-class RootViewController: UITabBarController, UITabBarControllerDelegate{
+class RootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        loadViewController();
-        
-        self.tabBar.barTintColor = UIColor.whiteColor();
-        
-        self.tabBar.tintColor = UIColor(red: 255.0/255.0, green: 124.0/255.0, blue: 56.0/255.0, alpha: 1);
-        
-        self.selectedIndex = 1;
-        self.navigationItem.title = "点场景"
-        
-        self.delegate = self
-        
-        initSetting()
-        
     }
-    
-    func initSetting(){
-        var settingButton = UIBarButtonItem(title: "设置", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("handleSettings"))
-        self.navigationItem.rightBarButtonItem = settingButton
-    }
-    
-    
-    func handleSettings(){
-        var settingVC = SettingViewController()
-        self.navigationController?.pushViewController(settingVC, animated: true)
-    }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -57,30 +31,15 @@ class RootViewController: UITabBarController, UITabBarControllerDelegate{
         // Pass the selected object to the new view controller.
     }
     */
+
     
-    
-    
-    func loadViewController(){
-        
-        //TODO 需要更改底部界面图形和字体
-        
-        var robotVC = RobotViewController();
-        robotVC.tabBarItem = UITabBarItem(title: "点部位", image: UIImage(named: "blank") , tag: 2);
-        
-        var sceneVC = SceneViewController();
-        sceneVC.tabBarItem = UITabBarItem(title: "点场景", image: UIImage(named: "blank") , tag: 1);
-        
-        var hisVC = HisViewController();
-        hisVC.tabBarItem = UITabBarItem(title: "点历史", image: UIImage(named: "blank") , tag: 3);
-        
-        self.setViewControllers([robotVC, sceneVC, hisVC], animated: true);
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
     
-    
-    func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController){
-    
-        self.navigationItem.title = viewController.title;
-    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+        
     }
 
 }

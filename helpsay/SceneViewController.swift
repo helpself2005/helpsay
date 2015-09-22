@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SceneViewController: UIViewController {
+class SceneViewController: RootViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,15 +40,6 @@ class SceneViewController: UIViewController {
         var nibNameOrNil = String?("SceneViewController")
         
         self.init(nibName: nibNameOrNil, bundle: NSBundle.mainBundle())
-    }
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
     }
 
 }

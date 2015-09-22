@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddSceneViewController: UIViewController {
+class AddSceneViewController: RootViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,13 +41,4 @@ class AddSceneViewController: UIViewController {
         self.init(nibName: nibNameOrNil, bundle: NSBundle.mainBundle())
     }
     
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
-    }
-
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingViewController: UIViewController {
+class SettingViewController: RootViewController {
 
     @IBOutlet weak var addSceneBtn: UIButton!
     
@@ -58,17 +58,6 @@ class SettingViewController: UIViewController {
         
         self.init(nibName: nibNameOrNil, bundle: NSBundle.mainBundle())
     }
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
-    }
-    
-    
     
 
 }

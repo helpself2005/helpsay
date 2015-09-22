@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 import MediaPlayer
 
-class RobotViewController: UIViewController, AVAudioPlayerDelegate {
+class RobotViewController: RootViewController, AVAudioPlayerDelegate {
     
     //declare avplayer
     var audioPlayer: AVAudioPlayer?
@@ -253,21 +253,13 @@ class RobotViewController: UIViewController, AVAudioPlayerDelegate {
         self.animImageView?.stopAnimating();
     }
     
-    //初始化窗体
+    //init load xib
     convenience init(){
         var nibNameOrNil = String?("RobotViewController")
 
         self.init(nibName: nibNameOrNil, bundle: NSBundle.mainBundle())
     }
     
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
-    }
     
     
 }

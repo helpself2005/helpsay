@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HisViewController: UIViewController {
+class HisViewController: RootViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,15 +39,6 @@ class HisViewController: UIViewController {
         var nibNameOrNil = String?("HisViewController")
         
         self.init(nibName: nibNameOrNil, bundle: NSBundle.mainBundle())
-    }
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
     }
 
 }

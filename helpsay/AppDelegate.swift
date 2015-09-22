@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         
-        var rootVC = RootViewController()
+        var mainVC = MainViewController()
         
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window!.backgroundColor = UIColor.whiteColor()
@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //self.window!.rootViewController = rootVC
         
         
-        var navVC = UINavigationController(rootViewController: rootVC)
+        var navVC = UINavigationController(rootViewController: mainVC)
         self.window?.rootViewController = navVC
         
         return true
