@@ -135,6 +135,7 @@
 				E5F0D6DD1BA6DF9A00FC2EC5 /* Model */,
 				E5F0D6D81BA6DF7300FC2EC5 /* Utils */,
 				E5F0D6D71BA6DF6100FC2EC5 /* Controller */,
+				E5F0D6E01BA6DFEB00FC2EC5 /* MainViewController.swift */,
 				E5F0D6B71BA6DF3500FC2EC5 /* AppDelegate.swift */,
 				E5F0D6BE1BA6DF3500FC2EC5 /* Images.xcassets */,
 				E5F0D6C01BA6DF3500FC2EC5 /* LaunchScreen.xib */,
@@ -172,12 +173,11 @@
 		E5F0D6D71BA6DF6100FC2EC5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E5ECE5C71BB0DE22005B5C18 /* RootViewController.swift */,
 				E5F0D6E51BA6E01D00FC2EC5 /* History */,
 				E5F0D6E41BA6E01600FC2EC5 /* Setting */,
 				E5F0D6E31BA6E01000FC2EC5 /* Scene */,
 				E5F0D6E21BA6DFFE00FC2EC5 /* Robot */,
-				E5F0D6E01BA6DFEB00FC2EC5 /* MainViewController.swift */,
-				E5ECE5C71BB0DE22005B5C18 /* RootViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
