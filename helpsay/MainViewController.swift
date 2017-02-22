@@ -17,7 +17,7 @@ class MainViewController: UITabBarController, UITabBarControllerDelegate{
         
         loadViewController();
         
-        self.tabBar.barTintColor = UIColor.whiteColor();
+        self.tabBar.barTintColor = UIColor.white;
         
         self.tabBar.tintColor = UIColor(red: 255.0/255.0, green: 124.0/255.0, blue: 56.0/255.0, alpha: 1);
         
@@ -31,13 +31,13 @@ class MainViewController: UITabBarController, UITabBarControllerDelegate{
     }
     
     func initSetting(){
-        var settingButton = UIBarButtonItem(title: "设置", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("handleSettings"))
+        let settingButton = UIBarButtonItem(title: "设置", style: UIBarButtonItemStyle.plain, target: self, action: #selector(MainViewController.handleSettings))
         self.navigationItem.rightBarButtonItem = settingButton
     }
     
     
     func handleSettings(){
-        var settingVC = SettingViewController()
+        let settingVC = SettingViewController()
         self.navigationController?.pushViewController(settingVC, animated: true)
     }
     
@@ -64,20 +64,20 @@ class MainViewController: UITabBarController, UITabBarControllerDelegate{
         
         //TODO 需要更改底部界面图形和字体
         
-        var robotVC = RobotViewController();
+        let robotVC = RobotViewController();
         robotVC.tabBarItem = UITabBarItem(title: "点部位", image: UIImage(named: "blank") , tag: 2);
         
-        var sceneVC = SceneViewController();
+        let sceneVC = SceneViewController();
         sceneVC.tabBarItem = UITabBarItem(title: "点场景", image: UIImage(named: "blank") , tag: 1);
         
-        var hisVC = HisViewController();
+        let hisVC = HisViewController();
         hisVC.tabBarItem = UITabBarItem(title: "点历史", image: UIImage(named: "blank") , tag: 3);
         
         self.setViewControllers([robotVC, sceneVC, hisVC], animated: true);
     }
     
     
-    func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController){
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController){
     
         self.navigationItem.title = viewController.title;
     
